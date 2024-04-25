@@ -1,28 +1,22 @@
-const input1 = document.querySelector('#input1')
-const input2 = document.querySelector('#input2')
-const btn = document.querySelector('#btnCalcular')
-const resultado = document.querySelector('#resultado')
-const form = document.querySelector('#form')
-const resultado2 = document.querySelector('#resultado2')
+const display = document.querySelector('#display');
+const btnClear = document.querySelector("#C");
+const btnSuma = document.querySelector("#suma");
+const btnResta = document.querySelector("#resta");
+const btnMultiplicar = document.querySelector("#multiplicacion");
+const btnDivision = document.querySelector("#division");
+const btnDecimal = document.querySelector("#decimal");
+const btnCero = document.querySelector("#cero");
+const btnUno = document.querySelector("#uno");
+const btnDos = document.querySelector("#dos");
+const btnTres = document.querySelector("#tres");
+const btnCuatro = document.querySelector("#cuatro");
+const btnCinco = document.querySelector("#cinco");
+const btnSeis = document.querySelector("#seis");
+const btnSiete = document.querySelector("#siete");
+const btnOcho = document.querySelector("#ocho");
+const btnNueve = document.querySelector("#nueve");
+const btnIgual = document.querySelector("#igual");
 
-form.addEventListener('submit', btnClick)
-input1.addEventListener('change', inptChng)
-input2.addEventListener('change', inptChng)
-input2.addEventListener('input', eventInput)
 
 
-function eventInput(e) {
-    console.log({e})
-    resultado2.textContent = e.srcElement.value
-}
-
-function inptChng(){
-    console.log(input1.value, input2.value)
-}
-
-function btnClick(e){ 
-    console.log({e})
-    e.preventDefault()
-    const result = parseInt(input1.value) + parseInt(input2.value)
-    resultado.innerHTML = `El resultado es ${result}`;
-}
+console.log(uno.textContent);

@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Stick No Bills', sans-serif;
 }
 
 html {
@@ -20,6 +21,11 @@ main {
 
 .display {
     height: 35%;
+    color: #ffff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 10rem;
 }
 
 .buttons {
@@ -40,10 +46,12 @@ main {
 }
 
 .button {
-    font-family: 'VT323', monospace;
+    
     font-size: xx-large; 
     background-color: #4E4E4E;
     border: 0.2rem outset #A7A7A7;
+    color: #ffff;
+    border-radius: 1.5rem;
 }
 
 .button:active{
